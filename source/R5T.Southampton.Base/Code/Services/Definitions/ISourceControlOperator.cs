@@ -9,10 +9,12 @@ namespace R5T.Southampton
         void Checkout(string repositoryUrl, string localDirectoryPath);
         void CommitToRemote(string path, string message);
         /// <summary>
+        /// Gets the repository URL for the repository in which <paramref name="path"/> is tracked.
+        /// </summary>
+        string GetRemoteRepositoryUrl(string path);
+        /// <summary>
         /// Given a path in a repository, return the repository root directory path.
         /// </summary>
-        /// <param name="path"></param>
-        /// <returns></returns>
         string GetRepositoryRootDirectoryPath(string path);
         bool IsUnderSourceControl(string path);
         void Update(string path);
