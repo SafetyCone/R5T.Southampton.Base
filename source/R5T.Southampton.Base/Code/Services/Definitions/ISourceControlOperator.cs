@@ -9,6 +9,11 @@ namespace R5T.Southampton
         void Checkout(string repositoryUrl, string localDirectoryPath);
         void CommitToRemote(string path, string message);
         /// <summary>
+        /// Gets information about the source-control operator.
+        /// </summary>
+        /// <returns></returns>
+        SourceControlOperatorInformation GetOperatorInformation();
+        /// <summary>
         /// Gets the repository URL for the repository in which <paramref name="path"/> is tracked.
         /// </summary>
         string GetRemoteRepositoryUrl(string path);
