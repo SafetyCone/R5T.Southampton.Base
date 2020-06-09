@@ -6,7 +6,7 @@ namespace R5T.Southampton
     public interface ISourceControlOperator
     {
         void Add(string path);
-        void Checkout(string repositoryUrl, string localDirectoryPath);
+        void Checkout(string repositoryUrl, string localDirectoryPath, string username, string password);
         void CommitToRemote(string path, string message);
         /// <summary>
         /// Gets information about the source-control operator.
