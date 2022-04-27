@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Southampton.Base", "R5T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.Southampton.Base.Construction", "R5T.Southampton.Base.Construction\R5T.Southampton.Base.Construction.csproj", "{E6A62E7F-6A5F-405A-B5B4-957845434439}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "_Dependencies", "_Dependencies", "{1BC42F5B-6408-49D7-8A42-0395A21EDA2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "R5T.T0064", "..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj", "{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -44,5 +48,20 @@ Global
 		{E6A62E7F-6A5F-405A-B5B4-957845434439}.Release|x64.Build.0 = Release|Any CPU
 		{E6A62E7F-6A5F-405A-B5B4-957845434439}.Release|x86.ActiveCfg = Release|Any CPU
 		{E6A62E7F-6A5F-405A-B5B4-957845434439}.Release|x86.Build.0 = Release|Any CPU
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}.Debug|x64.Build.0 = Debug|Any CPU
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}.Debug|x86.Build.0 = Debug|Any CPU
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}.Release|x64.ActiveCfg = Release|Any CPU
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}.Release|x64.Build.0 = Release|Any CPU
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}.Release|x86.ActiveCfg = Release|Any CPU
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8348AA85-EBCB-4D75-AA20-AE75A9C768B7} = {1BC42F5B-6408-49D7-8A42-0395A21EDA2B}
 	EndGlobalSection
 EndGlobal

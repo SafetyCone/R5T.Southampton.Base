@@ -1,9 +1,9 @@
-﻿using System;
+using System;using R5T.T0064;
 
 
 namespace R5T.Southampton
-{
-    public interface ISourceControlOperator
+{[ServiceDefinitionMarker]
+    public interface ISourceControlOperator:IServiceDefinition
     {
         void Add(string path);
         void Checkout(string repositoryUrl, string localDirectoryPath, string username, string password);
